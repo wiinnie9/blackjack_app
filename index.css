@@ -1,0 +1,58 @@
+/* Import fonts in your HTML <head> */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(145deg, #043927, #021B13);
+    background-size: cover;
+    text-align: center;
+    color: #E0E0E0;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: #FFD700;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#message-el {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #FFD700;
+    font-weight: 600;
+}
+
+/* Button styling */
+button {
+    background-color: #FFD700;
+    color: #111;
+    border: none;
+    padding: 12px 24px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+button:hover {
+    background-color: #D4AF37;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #b38f2c;
+    transform: scale(0.98);
+}
